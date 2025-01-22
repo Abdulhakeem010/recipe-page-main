@@ -5,62 +5,9 @@
 }
 
 @font-face {
-  font-family: "Young Serif 1";
-  src: url("assets/fonts/outfit/static/Outfit-ExtraBold.ttf");
-  font-weight: 800;
-  font-style: normal;
-}
-@font-face {
   font-family: "Young Serif";
-  src: url("assets/fonts/outfit/static/Outfit-Regular.ttf");
+  src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf");
   font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Young Serif";
-  src: url("assets/fonts/outfit/static/Outfit-Light.ttf");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Young Serif";
-  src: url("assets/fonts/outfit/static/Outfit-SemiBold.ttf");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Young Serif";
-  src: url("assets/fonts/outfit/static/Outfit-Medium.ttf");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Young Serif";
-  src: url("assets/fonts/outfit/static/Outfit-Bold.ttf");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Young Serif";
-  src: url("assets/fonts/outfit/static/Outfit-Black.ttf");
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Young Serif";
-  src: url("assets/fonts/outfit/static/Outfit-Thin.ttf");
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Young Serif";
-  src: url("assets/fonts/outfit/static/Outfit-ExtraLight.ttf");
-  font-weight: 200;
   font-style: normal;
 }
 
@@ -68,6 +15,7 @@
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
@@ -75,6 +23,7 @@
 html {
   background-color: hsl(30, 54%, 90%);
 }
+
 .main {
   padding-left: 40px;
   padding-right: 40px;
@@ -96,7 +45,7 @@ html {
 h1 {
   color: hsl(24, 5%, 18%);
   font-family: "Young Serif";
-  font-weight: 800;
+  font-weight: 400;
   font-style: normal;
   border: 1px solid black;
   margin-bottom: 32px;
