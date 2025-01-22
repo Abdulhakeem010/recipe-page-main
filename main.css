@@ -35,19 +35,49 @@ html {
   border-radius: 20px;
  
 }
+.image {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 35px;
+}
 
 h1 {
   color: hsl(24, 5%, 18%);
   font-family: "Young Serif";
   font-weight: 400;
   font-style: normal;
-  border: 1px solid black;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
-.image {
+.description {
+  font-family: "Young Serif";
+  font-weight: 100;
+  font-style: normal;
+  margin-bottom: 30px;
+  font-size: 12px;
+}
+.preparation-container{
+  border: 1px solid black;
+  background-color: #fdf6fa;
   border-radius: 15px;
-  width: 100%;
-  height: 100%;
-  margin-bottom: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ 
+}
+.preparation-title{
+  margin-left: 20px;
+  
+}
+.preparation-list{
+  margin-left: 40px;
+
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+  font-family: "Young Serif";
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 15px;
 }
