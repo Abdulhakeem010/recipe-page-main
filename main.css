@@ -162,11 +162,12 @@ hr {
 
 .instructions-list {
   border: 1px solid red;
- 
+  margin-left: 20px;
+  align-content: center;
+
 }
 
 .instructions-text {
   border: 1px solid blue;
-  
+  margin-left: 20px;
 }
-
