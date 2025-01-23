@@ -160,16 +160,14 @@ hr {
 }
 
 .instructions-list {
-  /* border: 1px solid red; */
   margin-left: 20px;
   align-content: center;
-  /* margin-bottom: 20px; */
 }
 
 .instructions-text {
-  /* border: 1px solid blue; */
   margin-left: 20px;
 }
+
 .nutrition-p {
   margin-bottom: 20px;
 }
@@ -177,6 +175,7 @@ hr {
 .nutrition-list {
   border: 1px solid red;
   list-style: none;
+  margin-left: 30px;
 }
 
 .nutrition-list-row {
@@ -184,6 +183,7 @@ hr {
   display: flex;
   padding-block: 5px;
 }
+
 .nutrition-item {
   width: 50%;
   font-family: "Outfit", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue";
