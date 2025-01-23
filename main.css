@@ -154,8 +154,11 @@ h3 {
   font-weight: 300;
   font-style: normal;
 }
+
 hr {
-  background-color: hsl(30, 54%, 90%);
+  height: 1px;
+  background-color:  hsl(30, 18%, 87%);
+  border: none;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -199,6 +202,7 @@ hr {
 .nutrition-hr {
   margin-top: 10px;
   margin-bottom: 10px;
+ 
  
 }
  
