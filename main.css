@@ -155,6 +155,7 @@ h3 {
   font-style: normal;
 }
 hr {
+  background-color: hsl(30, 54%, 90%);
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -173,15 +174,12 @@ hr {
 }
 
 .nutrition-list {
-  border: 1px solid red;
   list-style: none;
-  margin-left: 30px;
 }
 
 .nutrition-list-row {
-  border: 1px solid green;
-  display: flex;
   padding-block: 5px;
+  margin-left: 30px;
 }
 
 .nutrition-item {
@@ -196,3 +194,10 @@ hr {
   font-weight: 600;
   color: hsl(14, 45%, 36%);
 }
+
+.nutrition-hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+ 
+}
+ 
