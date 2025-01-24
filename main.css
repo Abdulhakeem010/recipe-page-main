@@ -78,7 +78,9 @@ html {
   background-color: hsl(30, 54%, 90%);
 }
 body {
- 
+ font-family: "Outfit";
+ font-weight: 300;
+ font-style: normal;
 }
 
 .main {
