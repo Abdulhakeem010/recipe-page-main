@@ -164,11 +164,13 @@ hr {
 }
 
 .instructions-list {
+  border: 1px solid red;
   margin-left: 20px;
-  align-content: center;
+ 
 }
 
 .instructions-text {
+
   margin-left: 20px;
 }
 
