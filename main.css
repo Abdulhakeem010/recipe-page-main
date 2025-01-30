@@ -169,15 +169,19 @@ hr {
 }
 
 .instructions-list {
- 
+   /* border: 1px solid red; */
   margin-left: 20px;
- 
 }
 
 .instructions-text {
-
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
+
+li{
+  border: 1px solid red;
+  padding-left: 20px;
+}
+
 
 .nutrition-p {
   margin-bottom: 20px;
@@ -190,7 +194,7 @@ hr {
 .nutrition-list-row {
   display: flex;
   padding-block: 5px;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 
 .nutrition-item {
