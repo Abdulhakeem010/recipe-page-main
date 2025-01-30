@@ -142,6 +142,10 @@ h2 {
   margin-left: 50px;
 }
 
+ul.preparation-list li::marker {
+  color:hsl(332, 51%, 32%);   
+}
+
 .bold {
   font-family: "Outfit";
   font-weight: 600;
@@ -155,11 +159,16 @@ h3 {
   font-style: normal;
   margin-bottom: 15px;
 }
+
 .ingredients-list {
   margin-left: 25px;
   font-family: "Outfit";
   font-weight: 300;
   font-style: normal;
+}
+
+ul.ingredients-list li::marker {
+  color:hsl(14, 45%, 36%);  
 }
 
 hr {
@@ -174,11 +183,15 @@ hr {
   margin-left: 25px;
 }
 
+ol.instructions-list li::marker {
+  color:hsl(14, 45%, 36%); 
+  font-family: "Outfit";
+  font-weight: 600;
+}
 
 li{
   padding-left: 20px;
 }
-
 
 .nutrition-p {
   margin-bottom: 20px;
@@ -191,7 +204,6 @@ li{
 .nutrition-list-row {
   display: flex;
   padding-block: 5px;
-  /* margin-left: 30px; */
 }
 
 .nutrition-item {
