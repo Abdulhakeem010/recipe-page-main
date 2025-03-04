@@ -65,7 +65,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   background-color: hsl(30, 54%, 90%);
   font-family: "Outfit", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue";
@@ -214,8 +213,11 @@ li {
 }
 
 @media screen and (max-width: 425px) {
-  .main{
-    border: 1px solid red;
+  body {
+    background-color: hsl(0, 0%, 100%);
+  }
+
+  .main {
     width: 100%;
     margin-top: 0;
     background-color: hsl(0, 0%, 100%);
