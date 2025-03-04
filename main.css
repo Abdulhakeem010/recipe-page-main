@@ -230,10 +230,11 @@ li {
 @media screen and (max-width: 375px) {
   .main {
     width: 100%;
+    padding-top: 0;
   }
   .image {
-    border: 1px solid red;
     border-radius: 0;
-   
   }
+
+
 }
