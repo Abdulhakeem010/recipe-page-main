@@ -4,15 +4,17 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Table of contents
 
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+- [Frontend Mentor - Recipe page solution](#frontend-mentor---recipe-page-solution)
+  - [Table of contents](#table-of-contents)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
 ### The challenge
 To create a webpage that looks nice and enticing.
 
@@ -34,9 +36,9 @@ To create a webpage that looks nice and enticing.
 
 
 ### What I learned
--I learned how to use the overflow
+-I learned how to use the overflow property
 -I was able to deeply understand how to import a font
--I was able to understand more of how the classes and span works
+-I was able to understand more of how the classes and span works.
 
 
 ### Continued development
