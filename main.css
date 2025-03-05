@@ -212,7 +212,7 @@ li {
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   body {
     background-color: hsl(0, 0%, 100%);
   }
@@ -220,21 +220,56 @@ li {
   .main {
     width: 100%;
     margin-top: 0;
+    margin-left: 0;
     background-color: hsl(0, 0%, 100%);
-    color: hsl(30, 10%, 34%);
-    max-height: fit-content;
     border-radius: 0;
   }
 }
 
+@media screen and (max-width: 768px){
+  
+}
+
+
 @media screen and (max-width: 375px) {
   .main {
+    padding-inline: 0;
     width: 100%;
-   padding-top: 0;
+    padding-top: 0;
+    padding-bottom: 20px;
+    margin: 0;
   }
   .image {
     border-radius: 0;
   }
+  .margin-content,
+  .title,
+  .description {
+    margin-inline: 25px;
+  }
+}
 
+@media screen and (max-height: 375px) and (min-aspect-ratio: 7/4){
+body{
+  background-color: white;
+}
 
+  .main {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 30px;
+    margin: 0;
+    background-color: hsl(0, 0%, 100%);
+    max-height: fit-content;
+    border-radius: 0;
+  }
+
+  .image {
+    border-radius: 0;
+  }
+  .margin-content,
+  .title,
+  .description {
+    margin-inline: 25px;
+  }
 }
